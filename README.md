@@ -6,7 +6,7 @@ Simple Git test repo
 
 The repository will be devided into 5 types of branches.
 
-### Main branches: _mastre_ & _develop_
+### Main branches: _master_ & _develop_
 - The _master_ branch is where the source code always reflects a production-ready state
 - The _develop_ branch is where the source code always reflects a state with the latest delivered development changes for the next release. Some would call this the “integration branch”.
 
