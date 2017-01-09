@@ -1,13 +1,14 @@
 // Tools
+
 #tool "nuget:https://www.nuget.org/api/v2?package=GitVersion.CommandLine&prerelease"
 
 var target = Argument("target", "Default");
 var configuration = Argument("configuration", "Release");
 
-string version = null;
-string nugetVersion = null;
-string preReleaseTag = null;
-string semVersion = null;
+string version = "";
+string nugetVersion = "";
+string preReleaseTag = "";
+string semVersion = "";
 
 Task("Version")
     .Does(() =>
@@ -31,8 +32,8 @@ Task("Version")
 
     Information("MajorMinorPatch: " + assertedVersions.MajorMinorPatch);
     Information("NuGetVersion: " + assertedVersions.NuGetVersion);
-    Information("preReleaseTag: " + assertedVersions.preReleaseTag);
-    Information("semVersion: " + assertedVersions.semVersion);
+    Information("PreReleaseTag: " + assertedVersions.PreReleaseTag);
+    Information("LegacySemVerPadded: " + assertedVersions.LegacySemVerPadded);
 });
 
 Task("Default").IsDependentOn("Version");
