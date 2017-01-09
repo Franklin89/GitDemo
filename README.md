@@ -1,6 +1,6 @@
 # GitDemo
 
-Simple Git test repo
+Git repository for demonstration
 
 ## Branching
 
