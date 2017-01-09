@@ -1,5 +1,5 @@
 // Tools
-#tool "nuget:https://www.nuget.org/api/v2?package=GitVersion.CommandLine&version=3.6.2"
+#tool "nuget:https://www.nuget.org/api/v2?package=GitVersion.CommandLine&prerelease"
 
 var target = Argument("target", "Default");
 var configuration = Argument("configuration", "Release");
