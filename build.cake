@@ -29,10 +29,10 @@ Task("Version")
     preReleaseTag = assertedVersions.PreReleaseTag;
     semVersion = assertedVersions.LegacySemVerPadded;
 
-    Information("MajorMinorPatch:" + assertedVersions.MajorMinorPatch);
-    Information("NuGetVersion:" + assertedVersions.NuGetVersion);
-    Information("preReleaseTag:" + assertedVersions.preReleaseTag);
-    Information("semVersion:" + assertedVersions.semVersion);
+    Information("MajorMinorPatch: " + assertedVersions.MajorMinorPatch);
+    Information("NuGetVersion: " + assertedVersions.NuGetVersion);
+    Information("preReleaseTag: " + assertedVersions.preReleaseTag);
+    Information("semVersion: " + assertedVersions.semVersion);
 });
 
 Task("Default").IsDependentOn("Version");
