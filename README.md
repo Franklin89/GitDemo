@@ -1,10 +1,8 @@
 # GitDemo
-
-Simple Git test repo
+Git repository for demonstration
 
 ## Branching
-
-The repository will be devided into 5 types of branches.
+The repository will be devided into 5 types of branches. The easeiest way to achieve this branching structure is by using a tool called **GitFlow**. GitFlow is nothing else than a set of commands that help the user to create and finish _feature_ branches etc.
 
 ### Main branches: _master_ & _develop_
 - The _master_ branch is where the source code always reflects a production-ready state
@@ -37,3 +35,9 @@ Hotfix branches are very much like release branches in that they are also meant 
 Pull request is a feature that makes it easier for developers to collaborate. Pull request is a mechanism for a developer to notify team members that they have completed a feature.
 
 Hint: Based on an article [Type of Pull Request](http://ben.balter.com/2015/12/08/types-of-pull-requests/), there are 6 types of PR. But WIP pattern is the one that is using by lots of teams and companies. It follows the mantra of “Open a Pull Request as early as possible”.
+
+## Using GitFlow with Visual Studio
+ToDo: Create screenshots in visual studio and TFS to visually display how this works best.
+
+## Versioning
+ToDo: Link to semver.org and explain what GitVersion is and how it works.
