@@ -36,5 +36,8 @@ Pull request is a feature that makes it easier for developers to collaborate. Pu
 
 Hint: Based on an article [Type of Pull Request](http://ben.balter.com/2015/12/08/types-of-pull-requests/), there are 6 types of PR. But WIP pattern is the one that is using by lots of teams and companies. It follows the mantra of “Open a Pull Request as early as possible”.
 
+## Using GitFlow with Visual Studio
+ToDo: Create screenshots in visual studio and TFS to visually display how this works best.
+
 ## Versioning
-Semantic versioning will be used
+ToDo: Link to semver.org and explain what GitVersion is and how it works.
