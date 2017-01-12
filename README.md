@@ -1,5 +1,5 @@
 # GitDemo
-Git repository for demonstration
+Git repository for demonstration purpose.
 
 ## Branching
 The repository will be devided into 5 types of branches. The easeiest way to achieve this branching structure is by using a tool called **GitFlow**. GitFlow is nothing else than a set of commands that help the user to create and finish _feature_ branches etc.
