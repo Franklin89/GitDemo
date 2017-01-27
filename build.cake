@@ -1,5 +1,4 @@
 // Tools
-
 #tool "nuget:https://www.nuget.org/api/v2?package=GitVersion.CommandLine&prerelease"
 
 var target = Argument("target", "Default");
