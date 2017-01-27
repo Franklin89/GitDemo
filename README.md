@@ -1,4 +1,6 @@
-ToDo: Create read the docs account and upload.
+feature/test1
+
+Simple Git test repo
 
 # GitDemo
 Git repository for demonstration purpose.
